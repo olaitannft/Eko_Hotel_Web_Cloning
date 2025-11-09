@@ -1,0 +1,73 @@
+.section-four{
+    height: 1100px;
+display: grid;
+margin: 0;
+background-color: rgb(248, 248, 248);
+border-bottom: gray;
+border-color: rgb(208, 202, 202);
+border-style: solid;
+}
+
+.section-four-head{
+    text-align: center;
+    line-height: 200px;
+}
+
+.eko-word{
+    color: #c9a680;
+}
+.dining-word{
+    color: rgb(4, 48, 64);
+}
+
+.section-info{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    margin: 0 15px 0 15px;
+    
+}
+.section-four-images{
+    height: 150px;
+    width: 228px;
+}
+
+.sub-class{
+   height: 380px;
+   width: 86.5%;
+   margin-left: 20px;
+   background-color: white;
+    border-style: none;
+    transition: box-shadow 0.15s;
+}
+
+.sub-class:hover{
+    box-shadow: 5px 5px 10px  rgba(0, 0, 0, 0.15);
+}
+
+.sky{
+    font-size: 15px;
+    font-family: sans-serif;
+    font-weight: bolder;
+    text-align: center;
+    color:rgb(4, 48, 64);
+}
+
+.section-four-dining{
+    text-align: center;
+    padding-left: 70px; 
+    color: rgb(205, 162, 116);
+    font-family: sans-serif;
+    font-size: 98px;
+    font-weight: 700px;
+    writing-mode: vertical-lr;
+}
+
+.section-four-eko{
+text-align: center;
+    padding-left: 70px; 
+    color: rgb(4, 48, 64);
+    font-family: sans-serif;
+    font-size: 98px;
+    font-weight: 700px;
+    writing-mode: vertical-lr;
+}
